@@ -6,6 +6,7 @@ from fnmatch import fnmatchcase
 from setuptools import setup,find_packages
 from distutils.util import convert_path
 
+
 # Provided as an attribute, so you can append to these instead
 # of replicating them:
 standard_exclude = ["*.py", "*.pyc", "*~", ".*", "*.bak", "Makefile"]
